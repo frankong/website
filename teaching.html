@@ -13,12 +13,15 @@
 
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="css/navbar-top-fixed.css" rel="stylesheet">
     
     <title>Frank Ong</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top">
 	<a class="navbar-brand" href="index.html">Frank Ong</a>
 	
 	<ul class="navbar-nav mr-auto">
@@ -34,86 +37,87 @@
 	</ul>
       </nav>
     </header>
-    <main role="main" class="container-fluid pt-5">
-      <div class="row justify-content-center pt-5">
-	<div class="col col-sm-9 col-md-9 col-lg-9">
-	  <table class="table">
-	    <tbody>
-	      <tr>
-		<td colspan=2 class="align-middle text-justify pt-5 pb-5 ">
-		  <h6>
-		    Mentoring
-		  </h6>
-		  <p>
-		    I have had the pleasure to work with many talented students over the years:
-		  </p>
-		  <ul>
-		    <li><strong>Junior research staff:</strong>
-		      <ul>
-			<li>Cedric Yue Sik Kin (Stanford)
-		      </ul>
-		    <li><strong>Graduate student:</strong>
-		      <ul>
-			<li>Elizabeth Cole (Stanford)
-			<li>Christopher Sandino (Stanford)
-			<li>Ke Wang (UC Berkeley)
-		      </ul>
-		    <li><strong>Undergraduate student:</strong> 
-		      <ul>
-			<li>Gaby Nahum (UC Berkeley)
-			<li>Stefan Ivanovic (UC Berkeley)
-			<li>Shahab Amin (UC Berkeley, Now at Social Calendar)
-			<li>Siddharth Iyer (UC Berkeley, Now at MIT PhD)
-			<li>Harrison Rosenberg (UC Berkeley, Now at UW Madison PhD)
-			<li>Jianqiao Yang (UC Berkeley, Now at MIT PhD)
-			<li>Andrew Li (UC Berkeley, Now at Alameda Research)
-		      </ul>
-		  </ul>
-		</td>
-	      </tr>
+    <main role="main" class="container-fluid">
 
-	      
-		<td class="align-middle text-justify pt-5 pb-5 ">
-		  <h6>
-		    Tutorial on Python Programming for Computational Imaging
-		  </h6>
-		  <h6>
-		    <small class="text-muted">
-		      IMA Computational Imaging Workshop, October 2019
-		    </small>
-		  </h6>
-		  <p>
-		    I gave a tutorial to show how to use Python for computational imaging tasks and research.
-		  </p>
-		</td>
-		<td class="align-middle text-center">
-		  <video poster="images/ima_tutorial.png" controls="" src="https://reel.ima.umn.edu:443/videos/2019/SW10.14-18.19/Ong-10-15-19.mp4" style="max-width:240px;max-height:240px">
-		</td>
-	      </tr>
-	      
-	      <tr>
-		<td class="align-middle text-justify pt-5 pb-5 ">
-		  <h6>
-		    EE123: Digital Signal Processing
-		  </h6>
-		  <h6>
-		    <small class="text-muted">
-		      UC Berkeley, Fall 2013, Spring 2015, and Spring 2016
-		    </small>
-		  </h6>
-		  <p>
-		    I was a teaching assistant for the class. My teaching received an <a href="https://gsi.berkeley.edu/programs-services/award-programs/ogsi/ogsi-2017/" class="text-dark">outstanding graduate student instructor award</a> and a <a href="https://gsi.berkeley.edu/ongf-2017/" class="text-dark">teaching effectiveness award</a>.
-		  </p>
-		</td>
-		<td class="align-middle text-center">
-		  <img src="https://inst.eecs.berkeley.edu/~ee123/sp16/chirp_right.png" class="rounded"
-		       style="max-width:240px;max-height:240px">
-		</td>
-	      </tr>
-	    </tbody>
-	  </table>
+      <!-- Mentoring -->
+      <div class="row pt-4 pb-4">
+	<div class="col-8 mx-auto">
+	  <h5>
+	    Mentoring
+	  </h5>
+	  <p>
+	    I have the pleasure to work with many talented students over the years:
+	  </p>
+	  <ul>
+	    <li><strong>Junior research staff:</strong>
+	      <ul>
+		<li>Cedric Yue Sik Kin (Stanford)
+	      </ul>
+	    <li><strong>Graduate student:</strong>
+	      <ul>
+		<li>Elizabeth Cole (Stanford)
+		<li>Christopher Sandino (Stanford)
+		<li>Ke Wang (UC Berkeley)
+	      </ul>
+	    <li><strong>Undergraduate student:</strong> 
+	      <ul>
+		<li>Gaby Nahum (UC Berkeley)
+		<li>Stefan Ivanovic (UC Berkeley)
+		<li>Shahab Amin (UC Berkeley, Now at Social Calendar)
+		<li>Siddharth Iyer (UC Berkeley, Now at MIT PhD)
+		<li>Harrison Rosenberg (UC Berkeley, Now at UW Madison PhD)
+		<li>Jianqiao Yang (UC Berkeley, Now at MIT PhD)
+		<li>Andrew Li (UC Berkeley, Now at Alameda Research)
+	      </ul>
+	  </ul>
 	</div>
       </div>
+      <hr class="col-8">
+
+      <!-- IMA Python tutorial -->
+      <div class="row pt-4 pb-4">
+	<div class="col-5 ml-auto text-justify">
+	  <h5>
+	    Tutorial on Python Programming for Computational Imaging
+	  </h5>
+	  <h6>
+	    <small class="text-muted">
+	      IMA Computational Imaging Workshop, October 2019
+	    </small>
+	  </h6>
+	  <p>
+	    I gave a tutorial to show how to use Python for computational imaging tasks and research.
+	  </p>
+	</div>
+	<div class="col-3 mr-auto">
+	  <video poster="images/ima_tutorial.png" class="img-fluid rounded"
+		 controls="" src="https://reel.ima.umn.edu:443/videos/2019/SW10.14-18.19/Ong-10-15-19.mp4">
+	</div>
+      </div>
+      <hr class="col-8">
+
+      <!-- DSP -->
+      <div class="row pt-4 pb-4">
+	<div class="col-5 ml-auto text-justify">
+	  <h5>
+	    EE123: Digital Signal Processing
+	  </h5>
+	  <h6>
+	    <small class="text-muted">
+	      UC Berkeley, Fall 2013, Spring 2015, and Spring 2016
+	    </small>
+	  </h6>
+	  <p>
+	    I was a teaching assistant for the class. My teaching received an <a href="https://gsi.berkeley.edu/programs-services/award-programs/ogsi/ogsi-2017/" class="text-dark">outstanding graduate student instructor award</a> and a <a href="https://gsi.berkeley.edu/ongf-2017/" class="text-dark">teaching effectiveness award</a>.
+	  </p>
+	</div>
+	<div class="col-3 mr-auto">
+	  <img src="https://inst.eecs.berkeley.edu/~ee123/sp16/chirp_right.png"
+	       class="img-fluid rounded">
+	</div>
+      </div>
+      <hr class="col-8">
+
     </main>
   </body>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
