@@ -30,7 +30,7 @@
     <header>
       <div class="container">
 	<div class="row">
-	  <div class="col-sm-12 col-md-10 col-lg-10 mx-auto">
+	  <div class="col-10 mx-auto">
 	    <nav class="navbar navbar-expand navbar-light bg-light rounded border">
 	      <a class="navbar-brand" href="index.html">Frank Ong</a>
 	      
@@ -53,279 +53,285 @@
     <main role="main" class="container">
 
       <!-- Me -->
-      <div class="row px-4 py-4">
-	<div class="col-sm-12 col-md-3 col-lg-3 ml-auto">
-	  <img src="images/me.jpg" class="img-fluid rounded">
-	  <div class="row my-4">
-	    <div class="col text-center">
-	      <a href="mailto:franko@stanford.edu">
-		<i class="mx-1 fas fa-envelope fa-2x text-muted" data-toggle="tooltip" title="Email"></i>
-	      </a>
-	      <a href="https://scholar.google.com/citations?user=zAM1TkoAAAAJ">
-		<i class="mx-1 ai ai-google-scholar ai-2x text-muted" data-toggle="tooltip" title="Google Scholar"></i>
-	      </a>
-	      <a href="https://github.com/frankong">
-		<i class="mx-1 fab fa-github fa-2x text-muted" data-toggle="tooltip" title="Github"></i>
-	      </a>
-	      <a href="files/Academic_CV.pdf">
-		<i class="mx-1 ai ai-cv ai-2x text-muted" data-toggle="tooltip" title="CV"></i>
-	      </a>
-	    </div>
-	  </div>
-	</div>
-	<div class="col-sm-12 col-md-7 col-lg-7 mr-auto text-justify">
+      <div class="row">
+	<div class="col-10 mx-auto text-center">
+	  <figure class="figure pt-3">
+      	    <img src="images/me.jpg" class="figure-img img-fluid rounded">
+	    <figcaption class="figure-caption text-justify">
+	      <p>
+		Hi! I'm a post-doc at Stanford, advised by <a href="https://profiles.stanford.edu/shreyas-vasanawala" class="text-muted">Shreyas Vasanawala</a> and <a href="https://web.stanford.edu/~pauly/" class="text-muted">John Pauly</a>. My research interests are in signal processing, medical imaging, data science and inverse problems.
+	      </p>
+	      <p>
+		I did my undergrad and PhD at UC Berkeley, where I had the pleasure to work with <a href="https://people.eecs.berkeley.edu/~mlustig/" class="text-muted">Miki Lustig</a> for many years. I have worked on sparse representations, fast MRI reconstruction algorithms, and open-source software packages.
+	      </p>
+	      <p>
+		In my Berkeley days, I have also collaborated with <a href="https://people.eecs.berkeley.edu/~kannanr/" class="text-muted">Kannan Ramchandran</a> on sparse FFT algorithms. And I did a wonderful summer internship with <a href="https://sites.google.com/view/milanfarhome/" class="text-muted">Peyman Milanfar</a> on kernel methods for image processing.
+	      </p>
+	    </figcaption>
+	  </figure>
 	  <p>
-	    Hi! I'm a post-doc at Stanford, advised by <a href="https://profiles.stanford.edu/shreyas-vasanawala" class="text-muted">Shreyas Vasanawala</a> and <a href="https://web.stanford.edu/~pauly/" class="text-muted">John Pauly</a>. My research interests are in signal processing, medical imaging, data science and inverse problems.
-	  </p>
-	  <p>
-	    I did my undergrad and PhD at UC Berkeley, where I had the pleasure to work with <a href="https://people.eecs.berkeley.edu/~mlustig/" class="text-muted">Miki Lustig</a> for many years. I have worked on sparse representations, fast reconstruction algorithms, and open-source software packages.
-	  </p>
-	  <p>
-	    In my Berkeley days, I have also collaborated with <a href="https://people.eecs.berkeley.edu/~kannanr/" class="text-muted">Kannan Ramchandran</a> on sparse FFT algorithms. And I did a wonderful summer internship with <a href="https://sites.google.com/view/milanfarhome/" class="text-muted">Peyman Milanfar</a> on connections between kernel methods and proximal operators.
+	    <a href="mailto:franko@stanford.edu">
+	      <i class="mx-1 fas fa-2x fa-envelope text-muted" data-toggle="tooltip" title="Email"></i>
+	    </a>
+	    <a href="https://scholar.google.com/citations?user=zAM1TkoAAAAJ">
+	      <i class="mx-1 ai ai-2x ai-google-scholar text-muted" data-toggle="tooltip" title="Google Scholar"></i>
+	    </a>
+	    <a href="https://github.com/frankong">
+	      <i class="mx-1 fab fa-2x fa-github text-muted" data-toggle="tooltip" title="Github"></i>
+	    </a>
+	    <a href="files/Academic_CV.pdf">
+	      <i class="mx-1 ai ai-2x ai-cv text-muted" data-toggle="tooltip" title="CV"></i>
+	    </a>
 	  </p>
 	</div>
       </div>
-      <hr class="col-sm-12 col-md-10 col-lg-10">
+
+      <div class="row">
+	<div class="col-10 mx-auto">
+	  <hr>
+	</div>
+      </div>
 
       <!-- Extreme MRI -->
-      <div class="row px-4 py-4">
-	<div class="col-sm-12 col-md-7 col-lg-7 ml-auto text-justify">
-      	  <h5>
+      <div class="row">
+	<div class="col-10 mx-auto text-center">
+	  <h5 class="pt-3">
       	    Large-scale 3D Dynamic MRI from Continuous Acquisitions
-      	  </h5>
-      	  <h6>
-      	    <small class="text-muted">
-      	      with Xucheng Zhu, Joseph Cheng, Kevin Johnson, Peder Larson, Shreyas Vasanawala, and Miki Lustig
-      	    </small>
-      	  </h6>
-      	  <p>
-      	    ~100GB 3D dynamic MRI can be reconstructed using a compressed low rank representation and a stochastic algorithm.
+	  </h5>
+      	  <p class="text-muted">
+      	    with Xucheng Zhu, Joseph Cheng, Kevin Johnson, Peder Larson, Shreyas Vasanawala, and Miki Lustig
       	  </p>
-	  <div class="row my-4">
-	    <div class="col">
-      	      <a href="https://arxiv.org/pdf/1909.13482" data-toggle="tooltip" title="PDF">
-      		<i class="mx-1 fas fa-file-pdf text-muted"></i>
-      	      </a>
-      	      <a href="https://www.slideshare.net/FrankOng5/extreme-mri-superhighres-dynamic-volumetric-mri-from-continuous-nongated-acquisition">
-      		<i class="mx-1 fab fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
-      	      </a>
-      	      <a href="https://www.youtube.com/watch?v=mK-wqKr--94">
-      		<i class="mx-1 fas fa-video text-muted" data-toggle="tooltip" title="Video"></i>
-      	      </a>
-	    </div>
-	  </div>
-	</div>
-	<div class="col-sm-12 col-md-3 col-lg-3 mr-auto text-center">
-      	  <img src="images/extreme_mri.gif" class="img-fluid rounded">
+	  <figure class="figure">
+      	    <img src="images/extreme_mri.gif" class="figure-img img-fluid rounded">
+	    <figcaption class="figure-caption text-justify">
+	      3D dynamic MRI on the order of 100GBs can be reconstructed from continuous acquisitions using a compressed low rank representation and a stochastic algorithm.
+	    </figcaption>
+	  </figure>
+	  <p>
+      	    <a href="https://arxiv.org/pdf/1909.13482" data-toggle="tooltip" title="PDF">
+      	      <i class="mx-1 fas fa-2x fa-file-pdf text-muted"></i>
+      	    </a>
+      	    <a href="https://www.slideshare.net/FrankOng5/extreme-mri-superhighres-dynamic-volumetric-mri-from-continuous-nongated-acquisition">
+      	      <i class="mx-1 fab fa-2x fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
+      	    </a>
+      	    <a href="https://www.youtube.com/watch?v=mK-wqKr--94">
+      	      <i class="mx-1 fas fa-2x fa-video text-muted" data-toggle="tooltip" title="Video"></i>
+      	    </a>
+	  </p>
 	</div>
       </div>
-      <hr class="col-sm-12 col-md-10 col-lg-10">
+      
+      <div class="row">
+	<div class="col-10 mx-auto">
+	  <hr>
+	</div>
+      </div>
 
       <!-- k-space precond -->
-      <div class="row px-4 py-4">
-	<div class="col-sm-12 col-md-7 col-lg-7 ml-auto text-justify">
-      	  <h5>
+      <div class="row">
+	<div class="col-10 mx-auto text-center">
+	  <h5 class="pt-3">
       	    Accelerating Non-Cartesian MRI Reconstruction with k-space Preconditioning
-      	  </h5>
-      	  <h6>
-      	    <small class="text-muted">
-      	      with Martin Uecker, and Miki Lustig
-      	    </small>
-      	  </h6>
-      	  <p>
-      	    Non-Cartesian MRI reconstructions can be efficiently accelerated by preconditioning the convex dual problem.
+	  </h5>
+      	  <p class="text-muted">
+      	    with Martin Uecker, and Miki Lustig
       	  </p>
-	  <div class="row my-4">
-	    <div class="col">
-      	      <a href="https://arxiv.org/pdf/1902.09657" data-toggle="tooltip" title="PDF">
-      		<i class="mx-1 fas fa-file-pdf text-muted"></i>
-      	      </a>
-      	      <a href="https://github.com/mikgroup/kspace_precond">
-      		<i class="mx-1 fas fa-code text-muted" data-toggle="tooltip" title="Code"></i>
-      	      </a>
-      	      <a href="https://www.slideshare.net/FrankOng5/kspace-diagonal-preconditioner-speeding-up-iterative-reconstruction-for-variable-density-sampled-acquisitions-without-compromises">
-      		<i class="mx-1 fab fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
-      	      </a>
-      	      <a href="https://www.youtube.com/watch?v=QwmlIXQJObw">
-      		<i class="mx-1 fas fa-video text-muted" data-toggle="tooltip" title="Video"></i>
-      	      </a>
-	    </div>
-	  </div>
-	</div>
-	<div class="col-sm-12 col-md-3 col-lg-3 mr-auto text-center">
-      	  <img src="images/kspace_precond.gif" class="img-fluid rounded">
+	  <figure class="figure">
+      	    <img src="images/kspace_precond.gif" class="figure-img img-fluid rounded">
+	    <figcaption class="figure-caption text-justify">
+	      Non-Cartesian MRI reconstructions can be efficiently accelerated by preconditioning the convex dual problem.
+	    </figcaption>
+	  </figure>
+	  <p>
+      	    <a href="https://arxiv.org/pdf/1902.09657" data-toggle="tooltip" title="PDF">
+      	      <i class="mx-1 fas fa-2x fa-file-pdf text-muted"></i>
+      	    </a>
+      	    <a href="https://github.com/mikgroup/kspace_precond">
+      	      <i class="mx-1 fas fa-2x fa-code text-muted" data-toggle="tooltip" title="Code"></i>
+      	    </a>
+      	    <a href="https://www.slideshare.net/FrankOng5/kspace-diagonal-preconditioner-speeding-up-iterative-reconstruction-for-variable-density-sampled-acquisitions-without-compromises">
+      	      <i class="mx-1 fab fa-2x fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
+      	    </a>
+      	    <a href="https://www.youtube.com/watch?v=QwmlIXQJObw">
+      	      <i class="mx-1 fas fa-2x fa-video text-muted" data-toggle="tooltip" title="Video"></i>
+      	    </a>
+	  </p>
 	</div>
       </div>
-      <hr class="col-sm-12 col-md-10 col-lg-10">
+      
+      <div class="row">
+	<div class="col-10 mx-auto">
+	  <hr>
+	</div>
+      </div>
 
       <!-- Kernel method -->
-      <div class="row px-4 py-4">
-	<div class="col-sm-12 col-md-7 col-lg-7 ml-auto text-justify">
-      	  <h5>
+      <div class="row">
+	<div class="col-10 mx-auto text-center">
+	  <h5 class="pt-3">
       	    Approximating Proximal Operators with Kernel Methods
-      	  </h5>
-      	  <h6>
-      	    <small class="text-muted">
-      	      with Peyman Milanfar, and Pascal Getreuer
-      	    </small>
-      	  </h6>
-      	  <p>
-      	    Any kernel based method can be approximated with a proximal operator with an appropriate regularization function. And vice versa.
+	  </h5>
+      	  <p class="text-muted">
+      	    with Peyman Milanfar, and Pascal Getreuer
       	  </p>
-	  <div class="row my-4">
-	    <div class="col">
-      	      <a href="https://arxiv.org/pdf/1803.03711" data-toggle="tooltip" title="PDF">
-      		<i class="mx-1 fas fa-file-pdf text-muted"></i>
-      	      </a>
-	    </div>
-	  </div>
-	</div>
-	<div class="col-sm-12 col-md-3 col-lg-3 mr-auto text-center">
-      	  <img src="images/kernel_proximal.png" class="img-fluid rounded">
+	  <figure class="figure">
+      	    <img src="images/kernel_proximal.png" class="figure-img img-fluid rounded">
+	    <figcaption class="figure-caption text-justify">
+	      Proximal operators can be approximated with kernel methods with appropriate regularization functions.
+	    </figcaption>
+	  </figure>
+	  <p>
+      	    <a href="https://arxiv.org/pdf/1803.03711" data-toggle="tooltip" title="PDF">
+      	      <i class="mx-1 fas fa-2x fa-file-pdf text-muted"></i>
+      	    </a>
+	  </p>
 	</div>
       </div>
-      <hr class="col-sm-12 col-md-10 col-lg-10">
+      
+      <div class="row">
+	<div class="col-10 mx-auto">
+	  <hr>
+	</div>
+      </div>
 
       <!-- Phase cycling -->
-      <div class="row px-4 py-4">
-	<div class="col-sm-12 col-md-7 col-lg-7 ml-auto text-justify">
-      	  <h5>
+      <div class="row">
+	<div class="col-10 mx-auto text-center">
+	  <h5 class="pt-3">
       	    General Phase Regularized MRI Reconstruction with Phase Cycling
-      	  </h5>
-      	  <h6>
-      	    <small class="text-muted">
-      	      with Joseph Cheng, and Miki Lustig
-      	    </small>
-      	  </h6>
-      	  <p>
-      	    Robustness against phase wraps in iterative reconstruction can be achieved by randomly shifting the wraps in space over iterations.
+	  </h5>
+      	  <p class="text-muted">
+      	    with Joseph Cheng, and Miki Lustig
       	  </p>
-	  <div class="row my-4">
-	    <div class="col">
-      	      <a href="https://arxiv.org/pdf/1709.05374.pdf">
-      		<i class="mx-1 fas fa-file-pdf text-muted" data-toggle="tooltip" title="PDF"></i>
-      	      </a>
-      	      <a href="https://github.com/mikgroup/phase_cycling">
-      		<i class="mx-1 fas fa-code text-muted" data-toggle="tooltip" title="Code"></i>
-      	      </a>
-      	      <a href="https://www.slideshare.net/FrankOng5/general-phase-regularized-mri-reconstruction-using-phase-cycling">
-      		<i class="mx-1 fab fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
-      	      </a>
-      	      <a href="https://www.youtube.com/watch?v=WFBqYqSODCE">
-      		<i class="mx-1 fas fa-video text-muted" data-toggle="tooltip" title="Video"></i>
-      	      </a>
-	    </div>
-	  </div>
-	</div>
-	<div class="col-sm-12 col-md-3 col-lg-3 mr-auto text-center">
-      	  <img src="images/phase_cycling.jpg" class="img-fluid rounded">
+	  <figure class="figure">
+      	    <img src="images/phase_cycling.jpg" class="figure-img img-fluid rounded">
+	    <figcaption class="figure-caption text-justify">
+	      Robustness against phase wraps in iterative reconstruction can be achieved by spatially shifting the wraps over iterations.
+	    </figcaption>
+	  </figure>
+	  <p>
+      	    <a href="https://arxiv.org/pdf/1709.05374.pdf">
+      	      <i class="mx-1 fas fa-2x fa-file-pdf text-muted" data-toggle="tooltip" title="PDF"></i>
+      	    </a>
+      	    <a href="https://github.com/mikgroup/phase_cycling">
+      	      <i class="mx-1 fas fa-2x fa-code text-muted" data-toggle="tooltip" title="Code"></i>
+      	    </a>
+      	    <a href="https://www.slideshare.net/FrankOng5/general-phase-regularized-mri-reconstruction-using-phase-cycling">
+      	      <i class="mx-1 fab fa-2x fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
+      	    </a>
+      	    <a href="https://www.youtube.com/watch?v=WFBqYqSODCE">
+      	      <i class="mx-1 fas fa-2x fa-video text-muted" data-toggle="tooltip" title="Video"></i>
+      	    </a>
+	  </p>
 	</div>
       </div>
-      <hr class="col-sm-12 col-md-10 col-lg-10">
+      
+      <div class="row">
+	<div class="col-10 mx-auto">
+	  <hr>
+	</div>
+      </div>
 
       <!-- Multiscale low rank -->
-      <div class="row px-4 py-4">
-	<div class="col-sm-12 col-md-7 col-lg-7 ml-auto text-justify">
-      	  <h5>
+      <div class="row">
+	<div class="col-10 mx-auto text-center">
+	  <h5 class="pt-3">
       	    Multiscale Low Rank Matrix Decomposition
-      	  </h5>
-      	  <h6>
-      	    <small class="text-muted">
-      	      with Miki Lustig
-      	    </small>
-      	  </h6>
-      	  <p>
-      	    Decomposing a matrix into block-wise low rank matrices of different scales can be done with a convex program and works well for many imaging tasks.
+	  </h5>
+      	  <p class="text-muted">
+      	    with Miki Lustig
       	  </p>
-	  <div class="row my-4">
-	    <div class="col">
-      	      <a href="https://arxiv.org/pdf/2407.08751.pdf" data-toggle="tooltip" title="PDF">
-      		<i class="mx-1 fas fa-file-pdf text-muted"></i>
-      	      </a>
-      	      <a href="https://github.com/frankong/multi_scale_low_rank">
-      		<i class="mx-1 fas fa-code text-muted" data-toggle="tooltip" title="Code"></i>
-      	      </a>
-      	      <a href="https://www.slideshare.net/FrankOng5/beyond-low-rank-sparse-multiscale-low-rank-matrix-decomposition">
-      		<i class="mx-1 fab fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
-      	      </a>
-	    </div>
-	  </div>
-	</div>
-	<div class="col-sm-12 col-md-3 col-lg-3 mr-auto text-center">
-      	  <img src="images/mslr.gif" class="img-fluid rounded">
+	  <figure class="figure">
+      	    <img src="images/mslr.gif" class="figure-img img-fluid rounded">
+	    <figcaption class="figure-caption text-justify">
+	      Decomposing a matrix into block-wise low rank matrices of different scales can be done with a convex program and works well for many imaging tasks.
+	    </figcaption>
+	  </figure>
+	  <p>
+      	    <a href="https://arxiv.org/pdf/2407.08751.pdf" data-toggle="tooltip" title="PDF">
+      	      <i class="mx-1 fas fa-2x fa-file-pdf text-muted"></i>
+      	    </a>
+      	    <a href="https://github.com/frankong/multi_scale_low_rank">
+      	      <i class="mx-1 fas fa-2x fa-code text-muted" data-toggle="tooltip" title="Code"></i>
+      	    </a>
+      	    <a href="https://www.slideshare.net/FrankOng5/beyond-low-rank-sparse-multiscale-low-rank-matrix-decomposition">
+      	      <i class="mx-1 fab fa-2x fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
+      	    </a>
+	  </p>
 	</div>
       </div>
-      <hr class="col-sm-12 col-md-10 col-lg-10">
+      
+      <div class="row">
+	<div class="col-10 mx-auto">
+	  <hr>
+	</div>
+      </div>
 
       <!-- 2D FFAST -->
-      <div class="row px-4 py-4">
-	<div class="col-sm-12 col-md-7 col-lg-7 ml-auto text-justify">
-      	  <h5>
+      <div class="row">
+	<div class="col-10 mx-auto text-center">
+	  <h5 class="pt-3">
       	    2D Sparse Fast Fourier Transform with Sparse Graph Codes
-      	  </h5>
-      	  <h6>
-      	    <small class="text-muted">
-      	      with Samir Pawar, and Kannan Ramchandran
-      	    </small>
-      	  </h6>
-      	  <p>
-      	    2D FFTs can be performed in O(k log k) time for k-sparse spectrums by cleverly subsampling the signal.
+	  </h5>
+      	  <p class="text-muted">
+      	    with Samir Pawar, and Kannan Ramchandran
       	  </p>
-	  <div class="row my-4">
-	    <div class="col">
-      	      <a href="https://arxiv.org/pdf/2409.05849">
-      		<i class="mx-1 fas fa-file-pdf text-muted" data-toggle="tooltip" title="PDF"></i>
-      	      </a>
-      	      <a href="https://github.com/frankong/FFAST">
-      		<i class="mx-1 fas fa-code text-muted" data-toggle="tooltip" title="Code"></i>
-      	      </a>
-      	      <a href="https://www.slideshare.net/FrankOng5/fast-sparse-2d-dft-computation-using-sparsegraph-alias-codes-202216017">
-      		<i class="mx-1 fab fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
-      	      </a>
-	    </div>
-	  </div>
-	</div>
-	<div class="col-sm-12 col-md-3 col-lg-3 mr-auto text-center">
-      	  <img src="images/2d_ffast.png" class="img-fluid rounded">
+	  <figure class="figure">
+      	    <img src="images/2d_ffast.png" class="figure-img img-fluid rounded">
+	    <figcaption class="figure-caption text-justify">
+      	    2D DFTs of k-sparse spectrums can be computed in O(k log k) time by subsampling the signal with co-prime factors, e.g. 5, 7, and 8.
+	    </figcaption>
+	  </figure>
+	  <p>
+      	    <a href="https://arxiv.org/pdf/2409.05849">
+      	      <i class="mx-1 fas fa-2x fa-file-pdf text-muted" data-toggle="tooltip" title="PDF"></i>
+      	    </a>
+      	    <a href="https://github.com/frankong/FFAST">
+      	      <i class="mx-1 fas fa-2x fa-code text-muted" data-toggle="tooltip" title="Code"></i>
+      	    </a>
+      	    <a href="https://www.slideshare.net/FrankOng5/fast-sparse-2d-dft-computation-using-sparsegraph-alias-codes-202216017">
+      	      <i class="mx-1 fab fa-2x fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
+      	    </a>
+	  </p>
 	</div>
       </div>
-      <hr class="col-sm-12 col-md-10 col-lg-10">
+      
+      <div class="row">
+	<div class="col-10 mx-auto">
+	  <hr>
+	</div>
+      </div>
 
       <!-- 4D flow denoising -->
-      <div class="row px-4 py-4">
-	<div class="col-sm-12 col-md-7 col-lg-7 ml-auto text-justify">
-      	  <h5>
+      <div class="row">
+	<div class="col-10 mx-auto text-center">
+	  <h5 class="pt-3">
       	    Robust 4D Flow Denoising with Divergence-Free Wavelet Transform
-      	  </h5>
-      	  <h6>
-      	    <small class="text-muted">
-      	      with Martin Uecker, Umar Tariq, Albert Hsiao, Marc Alley, Shreyas Vasanawala, and Miki Lustig
-      	    </small>
-      	  </h6>
-      	  <p>
-      	    4D flow data can be denoised robustly by thresholding the non-divergence-free wavelet coefficients.
+	  </h5>
+      	  <p class="text-muted">
+      	    with Martin Uecker, Umar Tariq, Albert Hsiao, Marc Alley, Shreyas Vasanawala, and Miki Lustig
       	  </p>
-	  <div class="row my-4">
-	    <div class="col">
-      	      <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.25176">
-      		<i class="mx-1 fas fa-file-pdf text-muted" data-toggle="tooltip" title="PDF"></i>
+	  <figure class="figure">
+      	    <img src="images/dfw.gif" class="figure-img img-fluid rounded">
+	    <figcaption class="figure-caption text-justify">
+      	      4D flow data can be robustly denoised by thresholding divergence-free wavelet coefficients.
+	    </figcaption>
+	  </figure>
+	  <p>
+      	    <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.25176">
+      	      <i class="mx-1 fas fa-2x fa-file-pdf text-muted" data-toggle="tooltip" title="PDF"></i>
+      	    </a>
+      	    <a href="http://people.eecs.berkeley.edu/~mlustig/software/DivFreeWavelet.zip">
+      	      <i class="mx-1 fas fa-2x fa-code text-muted" data-toggle="tooltip" title="Code"></i>
+      	    </a>
+      	    <a href="https://www.slideshare.net/FrankOng5/improved-visualization-and-quantification-of-4d-flow-data-using-divergencefree-wavelet-denoising">
+      	      <i class="mx-1 fab fa-2x fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
+      	      <a href="https://www.youtube.com/watch?v=3AB7vqFAIA4">
+      		<i class="mx-1 fas fa-2x fa-video text-muted" data-toggle="tooltip" title="Video"></i>
       	      </a>
-      	      <a href="http://people.eecs.berkeley.edu/~mlustig/software/DivFreeWavelet.zip">
-      		<i class="mx-1 fas fa-code text-muted" data-toggle="tooltip" title="Code"></i>
-      	      </a>
-      	      <a href="https://www.slideshare.net/FrankOng5/improved-visualization-and-quantification-of-4d-flow-data-using-divergencefree-wavelet-denoising">
-      		<i class="mx-1 fab fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
-      		<a href="https://www.youtube.com/watch?v=3AB7vqFAIA4">
-      		  <i class="mx-1 fas fa-video text-muted" data-toggle="tooltip" title="Video"></i>
-      		</a>
-	    </div>
-	  </div>
-	</div>
-	<div class="col-sm-12 col-md-3 col-lg-3 mr-auto text-center">
-      	  <img src="images/dfw.gif" class="img-fluid rounded">
+	  </p>
 	</div>
       </div>
-      <hr class="col-sm-12 col-md-10 col-lg-10">
 
     </main>
   </body>
